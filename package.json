@@ -1,0 +1,27 @@
+{
+  "name": "conversor",
+  "version": "1.0.0",
+  "description": "TPractico conversión números",
+  "main": "index.js",
+  "scripts": {
+    "test": "react-scripts test --env=jsdom"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/cRubianco/conversor.git"
+  },
+  "author": "Carlos Rubianco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cRubianco/conversor/issues"
+  },
+  "homepage": "https://github.com/cRubianco/conversor#readme",
+  "dependencies": {
+    "react-script": "^2.0.5"
+  },
+  "devDependencies": {
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "enzyme-to-json": "^3.4.0"
+  }
+}
