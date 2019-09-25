@@ -4,7 +4,7 @@
   "description": "TPractico conversión números",
   "main": "index.js",
   "scripts": {
-    "test": "react-scripts test --env=jsdom"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/cRubianco/conversor#readme",
   "dependencies": {
+    "react": "^16.9.0",
     "react-script": "^2.0.5"
   },
   "devDependencies": {
