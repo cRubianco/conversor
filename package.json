@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/cRubianco/conversor#readme",
   "dependencies": {
+    "jest": "^24.9.0",
     "react": "^16.9.0",
     "react-script": "^2.0.5"
   },

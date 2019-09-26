@@ -1,19 +1,16 @@
 // import React from "react";
 // import ReactTestUtils from "react-dom/test-utils";
-// import { shallow } from "enzyme";
 
-import suma from "../src/sum";
+const hello = require("../index");
+const suma = require("../src/sum");
 
-// describe("hello", () => {
-//   describe("#hello()", function() {
-//     it("Debería devolver Hola", function() {
-//       const component = shallow(<hello debug />);
-//       assert.equal(conver.hello(), "Hola");
-//     });
-//   });
-// });
+describe("Mi primer test", () => {
+  it("Espero que retorne Hola", () => {
+    expect(hello.hello()).toMatch("Hola");
+  });
+});
 
-test("Test suma", () => {
+it("Test suma", () => {
   expect(suma(3, 5)).toBe(8);
 });
 
