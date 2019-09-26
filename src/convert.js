@@ -1,5 +1,5 @@
 function convertir(nro) {
-  nro.toString();
+  return nro.toString();
 }
 
 module.exports = convertir;
