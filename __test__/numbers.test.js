@@ -1,6 +1,3 @@
-// import React from "react";
-// import ReactTestUtils from "react-dom/test-utils";
-
 const hello = require("../index");
 const suma = require("../src/sum");
 const convertir = require("../src/convert");

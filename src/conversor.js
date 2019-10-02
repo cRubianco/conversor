@@ -1,16 +1,3 @@
-var dg = [
-  "uno",
-  "dos",
-  "tres",
-  "cuatro",
-  "cinco",
-  "seis",
-  "siete",
-  "ocho",
-  "nueve",
-  "cero"
-];
-
 function convertirNro(num) {
   switch (num) {
     case 1:
