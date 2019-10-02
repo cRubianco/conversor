@@ -5,6 +5,7 @@ const hello = require("../index");
 const suma = require("../src/sum");
 const convertir = require("../src/convert");
 const numToJs = require("../src/nroACadena");
+const conversor = require("../src/conversor");
 
 describe("Mi primer test", () => {
   it("Espero que retorne Hola", () => {
@@ -30,6 +31,8 @@ describe("Convertir String", () => {
   });
 });
 
-// it("Exista un uno ",()=>{
-//   expect(conversor.metodo_o_procedimiento(1)).toBe("   \n  |\n  |")
-// });
+describe("Convertir A Digito", () => {
+  it("Exista un uno ", () => {
+    expect(conversor(1)).toBe("   \n  |\n  |");
+  });
+});
